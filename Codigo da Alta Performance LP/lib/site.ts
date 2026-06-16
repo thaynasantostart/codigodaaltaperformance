@@ -1,5 +1,5 @@
 // Configure o número de WhatsApp aqui (formato internacional, somente dígitos)
-export const WHATSAPP_NUMBER = "5500000000000"
+export const WHATSAPP_NUMBER = "5511985963555"
 
 export function whatsappLink(message: string) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
